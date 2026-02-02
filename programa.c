@@ -26,8 +26,5 @@ int main()
 
     // Acessando os dados com o operador "."
     printf("Aluno: %s\n", aluno1.nome); 
-    printf("Média: %.2f\n", aluno1.media);        
-
-    
-    
+    printf("Média: %.2f\n", aluno1.media);
 }
