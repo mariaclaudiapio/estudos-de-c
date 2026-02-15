@@ -10,8 +10,13 @@ void dobreValor(int valor)
 int main()
 {
     int numero = 5;
+
+    printf("Antes da função, o valor de 'numero' é: %d\n", numero);
+
     dobreValor(numero);
-    printf("Fora da função o valor é %d.\n", numero);
+
+    printf("Depois da função o valor é de 'número' é %d.\n", numero);
+    // O retorno aqui continuará sendo 05, porque a função não altera o valor armazenado em 'número'
 
     return 0;
 }
